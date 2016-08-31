@@ -8,6 +8,9 @@
 
   {maintainers,  ["Eric Bailey"]},
   {licenses,     ["MIT"]},
-  {links,        [{"GitHub", "https://github.com/quasiquoting/lfe-shen"}]},
+  {links, [
+    {"GitHub",        "https://github.com/quasiquoting/lfe-shen"},
+    {"Documentation", "http://quasiquoting.org/lfe-shen"}
+  ]},
   {files,        ["src", "kl_src", "rebar.*", "README.md", "LICENSE"]}
 ]}.

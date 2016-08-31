@@ -1,5 +1,5 @@
-{application, shen, [
-  {description, "An LFE implementation of the Shen programming language."},
+{application, shen,
+ [{description, "An LFE implementation of the Shen programming language."},
   {vsn,         "0.0.1"},
   {registered,   []},
   {applications, [kernel, stdlib]},
@@ -8,9 +8,10 @@
 
   {maintainers,  ["Eric Bailey"]},
   {licenses,     ["MIT"]},
-  {links, [
-    {"GitHub",        "https://github.com/quasiquoting/lfe-shen"},
-    {"Documentation", "http://quasiquoting.org/lfe-shen"}
-  ]},
-  {files,        ["src", "kl_src", "rebar.*", "README.md", "LICENSE"]}
-]}.
+  {links,        [{"GitHub",
+                   "https://github.com/quasiquoting/lfe-shen"},
+                  {"Documentation",
+                   "http://quasiquoting.org/lfe-shen"}]},
+  {files,        ["src",
+                  "rebar.*", "README.md", "LICENSE",
+                  "kl_src"]}]}.

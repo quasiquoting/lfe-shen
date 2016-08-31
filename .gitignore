@@ -9,3 +9,4 @@ _*
 ebin
 erl_crash.dump
 log
+rebar3.crashdump

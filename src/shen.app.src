@@ -1,6 +1,6 @@
 {application, shen,
  [{description, "An LFE implementation of the Shen programming language."},
-  {vsn,         "0.0.1"},
+  {vsn,         "0.0.2"},
   {registered,   []},
   {applications, [kernel, stdlib]},
   {env,          []},
@@ -12,6 +12,6 @@
                    "https://github.com/quasiquoting/lfe-shen"},
                   {"Documentation",
                    "http://quasiquoting.org/lfe-shen"}]},
-  {files,        ["src",
+  {files,        ["src", "include",
                   "rebar.*", "README.md", "LICENSE",
                   "kl_src"]}]}.
